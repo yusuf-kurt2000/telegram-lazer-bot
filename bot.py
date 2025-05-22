@@ -2,7 +2,7 @@ import os
 import requests
 from telegram.ext import ApplicationBuilder, CommandHandler
 
-ESP_IP = "http://192.168.1.100"  # ESP32 IP adresinizle değiştirin
+ESP_IP = "http://192.168.43.2"  # ESP32 IP adresinizle değiştirin
 
 def pixel_to_distance(x):
     table = {
